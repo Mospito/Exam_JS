@@ -1,0 +1,10 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "test": "Err",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

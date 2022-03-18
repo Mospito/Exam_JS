@@ -176,13 +176,14 @@ function shuffle() {
         deck[cur] = deck_tmp;
         
     }
+    
+    // console.log(deck);
 }
 
 
 function main() {
 
     bet = readlineSync.question('Please put your bet \n');
-    Deck()
     playing()
     get_value()
     battle()
@@ -190,10 +191,7 @@ function main() {
 }
 
 
-
-
-
-
+Deck()
 main()
 
 
